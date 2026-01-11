@@ -1,0 +1,15 @@
+# Node
+node_modules/
+dist/
+build/
+
+# Go
+bin/
+*.exe
+
+# Env
+.env
+
+# OS
+.DS_Store
+Thumbs.db
