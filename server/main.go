@@ -45,7 +45,7 @@ func main() {
 		}
 	}
 	// Helpful defaults for local development
-	allowedOrigins = append(allowedOrigins, "http://localhost:5173", "http://127.0.0.1:5173", "https://career-pilot-a-ai-powered-mock-inte.vercel.app/")
+	allowedOrigins = append(allowedOrigins, "http://localhost:5173", "http://127.0.0.1:5173", "https://career-pilot-a-ai-powered-mock-inte.vercel.app")
 
 	c := cors.New(cors.Options{
 		AllowedOrigins:   allowedOrigins,

@@ -38,7 +38,7 @@ const Interview = () => {
             const formData = new FormData();
             formData.append("audio", audioFile);
 
-            const res = await fetch("http://localhost:8080/api/v1/transcribe", {
+            const res = await fetch(`${import.meta.env.VITE_BACKEND_URL}/api/v1/transcribe`, {
                 method: "POST",
                 body: formData,
             });
@@ -50,6 +50,7 @@ const Interview = () => {
             return "";
         }
     };
+
 
     const fetchAIResponse = async () => {
     if (isRequestInProgress.current) {

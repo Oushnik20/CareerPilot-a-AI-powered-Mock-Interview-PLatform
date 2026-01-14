@@ -13,3 +13,6 @@ bin/
 # OS
 .DS_Store
 Thumbs.db
+
+server/*.wav
+server/temp_audio.wav
